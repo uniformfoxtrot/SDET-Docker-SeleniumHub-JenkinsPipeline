@@ -1,0 +1,10 @@
+remoteTesting/firefoxStandAloneTest.class
+remoteTesting/ParallelExecution3Test.class
+remoteTesting/startDocker.class
+remoteTesting/stopDocker.class
+remoteTesting/AppTest.class
+remoteTesting/ParallelExecution4Test.class
+remoteTesting/chromeStandAloneTest.class
+remoteTesting/ParallelExecution1Test.class
+remoteTesting/ParallelExecution5Test.class
+remoteTesting/ParallelExecution2Test.class

@@ -23,7 +23,7 @@ public class startDocker
 
          */
         String basePath = System.getProperty("user.dir");
-        String file1 ="/Users/lee/Documents/DockerValidation/output.txt";
+        String file1 ="output.txt";
         File f1 =new File(file1);
 
         if(f1.exists())

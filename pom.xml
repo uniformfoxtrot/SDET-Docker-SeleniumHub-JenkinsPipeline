@@ -36,8 +36,6 @@
       <artifactId>selenium-java</artifactId>
       <version>3.141.59</version>
     </dependency>
-
-
   </dependencies>
 
   <build>
@@ -52,10 +50,6 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>

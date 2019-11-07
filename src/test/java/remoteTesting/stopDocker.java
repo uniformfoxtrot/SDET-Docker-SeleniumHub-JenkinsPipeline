@@ -24,10 +24,10 @@ public class stopDocker
          */
 
         Process p = new ProcessBuilder("./docker_stop.sh").start();
-        p.waitFor(10,TimeUnit.SECONDS);
+        p.waitFor(25,TimeUnit.SECONDS);
 
         String basePath = System.getProperty("user.dir");
-        String file1 ="/Users/lee/Documents/DockerValidation/output.txt";
+        String file1 ="output.txt";
         Calendar cal = Calendar.getInstance();
         cal.add(Calendar.SECOND,45);
         long stopNow = cal.getTimeInMillis();
