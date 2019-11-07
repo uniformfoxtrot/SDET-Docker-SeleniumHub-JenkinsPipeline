@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel_Execution_Check" parallel="classes">
+    <test name="parallel_execution_check">
+        <classes>
+            <class name="remoteTesting.ParallelExecution1Test"/>
+            <class name="remoteTesting.ParallelExecution2Test"/>
+            <class name="remoteTesting.ParallelExecution3Test"/>
+            <class name="remoteTesting.ParallelExecution4Test"/>
+            <class name="remoteTesting.ParallelExecution5Test"/>
+        </classes>
+    </test>
+</suite>
